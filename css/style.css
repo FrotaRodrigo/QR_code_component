@@ -1,0 +1,45 @@
+body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    background: rgb(213, 225, 239);
+}
+
+.section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.section.central {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 15px;
+    color: rgb( 44, 54, 79);
+    text-align: center;
+}
+
+h2 {
+    font-size: 13px;
+    color: rgb(137, 140, 147);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.scetion.central h1 h2 {
+    display: block;
+}
+
+.avatar {
+    width: 80px;
+    align-items: center;
+}
+
+
